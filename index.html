@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Módulo 2 - CSS Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho da página -->
+    <header>
+      <h2 class="title">FlexTurismos</h2>
+      <div>
+        <ul class="menu">
+          <li><a href="#quem-somos">Quem somos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#planos">Planos</a></li>
+        </ul>
+
+        <div class="btn-theme-area">
+          <i class="fa-solid fa-moon fa-xl"></i>
+          <input type="checkbox" class="btn-theme" name="theme" />
+        </div>
+      </div>
+    </header>
+    <!-- Conteúdo Principal -->
+    <main>
+      <!-- Sessão de Introdução -->
+      <section class="container">
+        <div class="intro-content">
+          <h1>Flex<br />Turismos</h1>
+          <p>O melhor serviço para você!</p>
+          <button class="know-more">Saiba mais!</button>
+        </div>
+
+        <img
+          class="presentation"
+          src="./images/0-main.png"
+          alt="Imagem de apresentação"
+        />
+      </section>
+
+      <!-- Sessão de Quem Somos -->
+      <section class="container who-we-are">
+        <img
+          class="presentation"
+          src="./images/1-quem-somos.png"
+          alt="Imagem da sessão Quem Somos"
+        />
+
+        <div class="who-we-are-content">
+          <h2 id="quem-somos">Quem Somos</h2>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at this layout.
+          </p>
+          <p>
+            The point of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using "Content here, content
+            here", making it look like readable English.
+          </p>
+        </div>
+      </section>
+
+      <!-- Sessão de Serviços -->
+      <section class="services">
+        <h2 id="servicos">Serviços</h2>
+
+        <div class="container-items">
+          <div class="item">
+            <img
+              src="./images/icon-1.png"
+              alt="Ícone de avião dando volta ao mundo"
+            />
+            <p>Pacote de viagens</p>
+            <button class="buy-now">Comprar agora</button>
+          </div>
+          <div class="item">
+            <img src="./images/icon-2.png" alt="Ícone de Hotel" />
+            <p>Hospedagens</p>
+            <button class="buy-now">Comprar agora</button>
+          </div>
+          <div class="item">
+            <img src="./images/icon-3.png" alt="Ícone de Mapa" />
+            <p>Roteiros personalizados</p>
+            <button class="buy-now">Comprar agora</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sessão de Planos -->
+      <section class="plans">
+        <h2 id="planos">Planos</h2>
+
+        <div class="container-items">
+          <div class="item">
+            <h3>Plano 1</h3>
+            <ul>
+              <li>Suporte 24h</li>
+              <li>Serviços de quarto</li>
+              <li>Guia turístico</li>
+            </ul>
+
+            <a href="#">Saiba mais!</a>
+          </div>
+          <div class="item">
+            <h3>Plano 2</h3>
+            <ul>
+              <li>Suporte 24h</li>
+              <li>Serviços de quarto</li>
+              <li>Guia turístico</li>
+              <li>Roteiro de trilhas</li>
+              <li>Serviço personalizado</li>
+            </ul>
+
+            <a href="#">Saiba mais!</a>
+          </div>
+          <div class="item">
+            <h3>Plano 3</h3>
+            <ul>
+              <li>Suporte 24h</li>
+              <li>Serviços de quarto</li>
+              <li>Guia turístico</li>
+              <li>Roteiro de trilhas</li>
+              <li>Serviço personalizado</li>
+              <li>Área Vip</li>
+            </ul>
+
+            <a href="#">Saiba mais!</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+      <p class="copyright">&copy; 2022 CSS Flexbox</p>
+      <p class="development">Desenvolvido por: <strong>Lucas Nascimento</strong></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script
+      src="https://kit.fontawesome.com/7ed22bcdfc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
